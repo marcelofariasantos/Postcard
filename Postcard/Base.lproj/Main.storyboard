@@ -87,13 +87,22 @@
                                     <action selector="sendMailPressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VyN-vP-AJe"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPh-Nn-FDA">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="79" width="342" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4I-fX-zVN">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="85" width="342" height="68"/>
+                                    <rect key="frame" x="16" y="108" width="342" height="45"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ul-OX-cVq">
@@ -111,6 +120,7 @@
                                 <exclude reference="vE8-u1-irs"/>
                                 <exclude reference="OEg-Q3-nl5"/>
                                 <exclude reference="Lyt-BH-fx8"/>
+                                <exclude reference="hPh-Nn-FDA"/>
                                 <exclude reference="j4I-fX-zVN"/>
                                 <exclude reference="8ul-OX-cVq"/>
                             </mask>
@@ -120,6 +130,7 @@
                                 <include reference="vE8-u1-irs"/>
                                 <include reference="OEg-Q3-nl5"/>
                                 <include reference="Lyt-BH-fx8"/>
+                                <include reference="hPh-Nn-FDA"/>
                                 <include reference="j4I-fX-zVN"/>
                                 <include reference="8ul-OX-cVq"/>
                             </mask>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="OEg-Q3-nl5" id="IOT-2W-8DX"/>
                         <outlet property="mailButton" destination="Lyt-BH-fx8" id="d4y-he-6qv"/>
                         <outlet property="messageLabel" destination="j4I-fX-zVN" id="TrS-C5-CpV"/>
+                        <outlet property="nameLabel" destination="hPh-Nn-FDA" id="zUW-yb-kJM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
